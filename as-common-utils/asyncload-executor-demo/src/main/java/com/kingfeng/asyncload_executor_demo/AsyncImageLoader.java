@@ -39,7 +39,7 @@ public class AsyncImageLoader {
         if (imageCache.containsKey(imageUrl)) {
             SoftReference<Drawable> softReference = imageCache.get(imageUrl);
             if (softReference.get() != null) {
-                return softReference.get();
+                return softReference.get(); //
             }
         }
 
