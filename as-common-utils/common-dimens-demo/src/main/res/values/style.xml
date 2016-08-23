@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<style name="dialog_edit_txt_font">
+		<item name="android:textSize">@dimen/txsize_large_x</item>
+		<item name="android:textColor">#000000</item>
+	</style>
+
+	<style name="dialog_checkbox_txt_font">
+		<item name="android:textSize">@dimen/txsize_large_x</item>
+		<item name="android:textColor">#ffffffff</item>
+	</style>
+
+	<style name="dialog_button_txt_login_font">
+		<item name="android:textSize">@dimen/txsize_large_x</item>
+		<item name="android:textColor">#ffffffff</item>
+	</style>
+
+
+	<style name="dialog_title_font">
+		<item name="android:textSize">@dimen/txsize_large_xxx</item>
+		<item name="android:textColor">#ffffffff</item>
+	</style>
+
+	<style name="activity_title_font">
+		<item name="android:textSize">@dimen/txsize_mid_xx</item>
+		<item name="android:textColor">#ffffffff</item>
+	</style>
+
+	<style name="popmenu_device_item_textview">
+		<item name="android:textSize">@dimen/txsize_large_xx</item>
+		<item name="android:textColor">#000000</item>
+	</style>
+
+	<style name="popmenu_device_title_textview">
+		<item name="android:textSize">@dimen/txsize_large_x</item>
+		<item name="android:textColor">#ffffffff</item>
+	</style>
+
+	<style name="navigation_title_font">
+		<item name="android:textSize">@dimen/txsize_mid_x</item>
+		<item name="android:textColor">#666666</item>
+	</style>
+
+
+	<style name="service_entry_title_font">
+		<item name="android:textSize">@dimen/txsize_large_x</item>
+		<item name="android:textColor">#000000</item>
+	</style>
+	
+	<style name="device_title_font">
+		<item name="android:textSize">@dimen/txsize_large_x</item>
+		<item name="android:textColor">#000000</item>
+	</style>
+	
+	<style name="device_dec_strong_font">
+		<item name="android:textSize">@dimen/txsize_mid_xx</item>
+		<item name="android:textColor">#000000</item>
+	</style>
+	
+	<style name="device_dec_weak_font">
+		<item name="android:textSize">@dimen/txsize_mid_xx</item>
+		<item name="android:textColor">#969696</item>
+	</style>
+
+	<style name="service_entry_describe_font">
+		<item name="android:textSize">@dimen/txsize_mid_x</item>
+		<item name="android:textColor">#969696</item>
+	</style>
+
+	<style name="pub_pos_title_font">
+		<item name="android:textSize">@dimen/txsize_mid_xxx</item>
+		<item name="android:textColor">#000000</item>
+	</style>
+
+
+	<style name="dialog_list_title_font">
+		<item name="android:textSize">@dimen/txsize_mid_xxx</item>
+		<item name="android:textColor">#000000</item>
+	</style>
+
+
+	<style name="button_device_trace_font">
+		<item name="android:textSize">@dimen/txsize_large_x</item>
+		<item name="android:textColor">#000000</item>
+	</style>
+
+	<style name="button_txt_chat_font">
+		<item name="android:textSize">@dimen/txsize_large_x</item>
+		<item name="android:textColor">#000000</item>
+	</style>
+
+	<style name="edit_txt_chat_font">
+		<item name="android:textSize">@dimen/txsize_large_x</item>
+		<item name="android:textColor">#000000</item>
+	</style>
+
+	<style name="textview_person_des_chat_font">
+		<item name="android:textSize">@dimen/txsize_small_xxx</item>
+		<item name="android:textColor">#000000</item>
+	</style>
+
+	<style name="servicename_font">
+		<item name="android:textSize">@dimen/txsize_mid_x</item>
+		<item name="android:textColor">#000000</item>
+	</style>
+
+
+	<style name="machine_state_strong_txt_font">
+		<item name="android:textSize">@dimen/txsize_mid_xx</item>
+		<item name="android:textColor">#000000</item>
+	</style>
+
+	<style name="machine_state_weak_txt_font">
+		<item name="android:textSize">@dimen/txsize_mid_xx</item>
+		<item name="android:textColor">#888888</item>
+	</style>
+
+
+	<style name="chat_msg_edit_txt_font">
+		<item name="android:textSize">@dimen/txsize_large_x</item>
+		<item name="android:textColor">#000000</item>
+	</style>
+	
+	<style name="report_item_font_para_name">
+		<item name="android:textSize">@dimen/txsize_mid_xx</item>
+		<item name="android:textColor">#000000</item>
+	</style>
+	
+	<style name="report_item_font_para_value">
+		<item name="android:textSize">@dimen/txsize_large_x</item>
+		<item name="android:textColor">#ffffff</item>
+	</style>
+	
+	<style name="usr_mgr_txt_view_font">
+		<item name="android:textSize">@dimen/txsize_large_x</item>
+		<item name="android:textColor">#000000</item>
+	</style>
+	
+	<style name="list_title_news_font">
+		<item name="android:textSize">@dimen/txsize_mid_xxx</item>
+		<item name="android:textColor">#000000</item>
+	</style>
+
+</resources>

@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">asyncload-executor-demo</string>
+    <string name="title_activity_basic_load">BasicLoadActivity</string>
+</resources>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">dimen</string>
+    <string name="mapabc_key">c2b0f58a6f09cafd1503c06ef08ac7aeb7ddb91af2282c2602357801fc9f73ded61953a2a10da9d2</string>
+    <string name="search_lable">搜索关键字</string>
+    <string name="search_hint">搜索关键字</string>
+    <string name="new_function">1.告警功能\r\n2.保养提示\r\n3.资讯功能</string>
+    <string name="no_result">---</string>
+    <string name="str_getcode"><u>获取短信</u></string>
+    <string name="str_parsercode"><u>提取验证码</u></string>
+    <string name="str_internet"><u>www.vkeyi.com</u></string>
+    <string name="str_phone"><u>0731-84031567</u></string>
+     <string name="str_acc_time_down"><u>按时间降序</u></string>
+     <string name="str_acc_time_up"><u>按时间升序</u></string>
+     <string name="str_acc_price_down"><u>按价格降序</u></string>
+     <string name="str_acc_price_up"><u>按价格升序</u></string>
+     <string name="str_con_all"><u>类型:全部</u></string>
+     <string name="str_con_favorite"><u>收藏设备</u></string>
+</resources>

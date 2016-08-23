@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/as-common-utils.iml" filepath="$PROJECT_DIR$/as-common-utils.iml" />
+      <module fileurl="file://$PROJECT_DIR$/asyncload-executor-demo/asyncload-executor-demo.iml" filepath="$PROJECT_DIR$/asyncload-executor-demo/asyncload-executor-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common-dimens-demo/common-dimens-demo.iml" filepath="$PROJECT_DIR$/common-dimens-demo/common-dimens-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/custom-thread-pool-demo/custom-thread-pool-demo.iml" filepath="$PROJECT_DIR$/custom-thread-pool-demo/custom-thread-pool-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/executor-service-demo/executor-service-demo.iml" filepath="$PROJECT_DIR$/executor-service-demo/executor-service-demo.iml" />
+    </modules>
+  </component>
+</project>

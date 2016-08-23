@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string-array name="usertypes_array">
+	<item>操作手</item>
+	<item>个体老板</item>
+	<item>设备主管</item>
+	<item>售后服务人员</item>
+</string-array>
+    
+</resources>

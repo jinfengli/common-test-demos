@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- 系统设置界面需要要到的数组 -->
+	<string-array name="auto_update_frequency_entry">
+		<item>10分钟</item>
+		<item>30分钟</item>
+		<item>1小时</item>
+		<item>12小时</item>
+		<item>24小时</item>
+	</string-array>
+	<string-array name="auto_update_frequency_value">
+		<item>10</item>
+		<item>30</item>
+		<item>60</item>
+		<item>720</item>
+		<item>1440</item>
+	</string-array>
+
+	<string-array name="user_info_job">
+		<item>操作手</item>
+		<item>私营老板</item>
+		<item>车队长</item>
+		<item>保密</item>
+	</string-array>
+
+	<string-array name="user_info_sex">
+		<item>男</item>
+		<item>女</item>
+	</string-array>
+
+	<string-array name="user_info_profile">
+		<item>清新丽人</item>
+		<item>高富帅</item>
+		<item>稚气未脱</item>
+		<item>成熟稳重</item>
+		<item>无所谓</item>
+	</string-array>
+
+</resources>
