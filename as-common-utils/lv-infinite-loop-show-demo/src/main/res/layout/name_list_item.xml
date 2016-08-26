@@ -5,13 +5,78 @@
 
     <TextView
         android:id="@+id/tv_name_item"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="20sp"
         android:paddingTop="30dp"
         android:paddingBottom="30dp"
-        android:gravity="center_horizontal"
+        android:gravity="left"
         android:text="hello"/>
+
+
+    <com.kingfeng.lv_infinite_show_demo.SyncHorizontalScrollView
+        android:layout_toRightOf="@id/tv_name_item"
+        android:id="@+id/scrollview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="30dp"
+        android:paddingBottom="30dp"
+        android:scrollbars="none"
+        android:fillViewport="true">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:paddingLeft="50dp"
+                android:paddingRight="50dp"
+                android:text="field1"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:paddingRight="50dp"
+                android:text="field1"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:paddingRight="50dp"
+                android:text="field1"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:paddingRight="50dp"
+                android:text="field1"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:paddingRight="50dp"
+                android:text="field1"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:paddingRight="50dp"
+                android:text="field1"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:paddingRight="50dp"
+                android:text="field2"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:paddingRight="50dp"
+                android:text="field3"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="field1"/>
+        </LinearLayout>
+    </com.kingfeng.lv_infinite_show_demo.SyncHorizontalScrollView>
+
+
     <View
         android:layout_below="@id/tv_name_item"
         android:layout_width="match_parent"

@@ -41,6 +41,7 @@ public class InfiniteLoopShowAdapter extends RecyclerView.Adapter<RecyclerView.V
 //        (MyItemHolder)holder.setText(datas.get(position));
         MyItemHolder myItemHolder = (MyItemHolder) holder;
         myItemHolder.tvName.setText(datas.get(position % datas.size()));
+//        myItemHolder.scrollview.setScrollView();
     }
 
     @Override
@@ -52,10 +53,13 @@ public class InfiniteLoopShowAdapter extends RecyclerView.Adapter<RecyclerView.V
     class MyItemHolder extends RecyclerView.ViewHolder implements View.OnClickListener{
         TextView tvName;
 
+//        private SyncHorizontalScrollView scrollview;
+
         public MyItemHolder(View itemView) {
             super(itemView);
             this.tvName = (TextView) itemView.findViewById(R.id.tv_name_item);
             tvName.setOnClickListener(this);
+//            scrollview = (SyncHorizontalScrollView) itemView.findViewById(R.id.scrollview);
         }
 
         @Override

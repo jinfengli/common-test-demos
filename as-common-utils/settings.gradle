@@ -1,1 +1,1 @@
-include ':app', ':common-dimens-demo', ':asyncload-executor-demo', ':executor-service-demo', ':custom-thread-pool-demo', ':lv-infinite-loop-show-demo', ':service-relate-demo'
+include ':app', ':common-dimens-demo', ':asyncload-executor-demo', ':executor-service-demo', ':custom-thread-pool-demo', ':lv-infinite-loop-show-demo', ':service-relate-demo', ':two-direction-scroll'

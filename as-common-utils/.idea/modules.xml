@@ -11,6 +11,7 @@
       <module fileurl="file://$PROJECT_DIR$/lv-infinite-loop-show-demo/lv-infinite-loop-show-demo.iml" filepath="$PROJECT_DIR$/lv-infinite-loop-show-demo/lv-infinite-loop-show-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/lv-infinite-loop-show-demo/lv-infinite-show-demo.iml" filepath="$PROJECT_DIR$/lv-infinite-loop-show-demo/lv-infinite-show-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/service-relate-demo/service-relate-demo.iml" filepath="$PROJECT_DIR$/service-relate-demo/service-relate-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/two-direction-scroll/two-direction-scroll.iml" filepath="$PROJECT_DIR$/two-direction-scroll/two-direction-scroll.iml" />
     </modules>
   </component>
 </project>

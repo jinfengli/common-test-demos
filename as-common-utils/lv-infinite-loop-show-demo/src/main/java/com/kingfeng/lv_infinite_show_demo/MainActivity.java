@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity implements InfiniteLoopShowA
         getDatas();
 
         rvNames.setAdapter(infiniteLoopShowAdapter);
-        rvNames.scrollToPosition(Integer.MAX_VALUE/2+1); // 取中间值，既能往前scroll，也能往后scroll
+//        rvNames.scrollToPosition(Integer.MAX_VALUE/2+1); // 取中间值，既能往前scroll，也能往后scroll
         infiniteLoopShowAdapter.setmItemOnclickListener(this);
     }
 
@@ -55,4 +55,5 @@ public class MainActivity extends AppCompatActivity implements InfiniteLoopShowA
         Toast.makeText(MainActivity.this, "点击的位置是："+ postion, Toast.LENGTH_LONG).show();
         Log.i(TAG, "click position is: " + postion);
     }
+
 }
