@@ -3,8 +3,9 @@
   <component name="GradleSettings">
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
-        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="distributionType" value="LOCAL" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleHome" value="C:\Program Files (x86)\android-studio-ide-145.3225885-windows\android-studio\gradle\gradle-2.14.1" />
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
@@ -14,7 +15,11 @@
             <option value="$PROJECT_DIR$/custom-thread-pool-demo" />
             <option value="$PROJECT_DIR$/executor-service-demo" />
             <option value="$PROJECT_DIR$/lv-infinite-loop-show-demo" />
+            <option value="$PROJECT_DIR$/myapplication" />
+            <option value="$PROJECT_DIR$/net-retrofit-demos" />
             <option value="$PROJECT_DIR$/service-relate-demo" />
+            <option value="$PROJECT_DIR$/tablayout-demo" />
+            <option value="$PROJECT_DIR$/touch-event-demo" />
             <option value="$PROJECT_DIR$/two-direction-scroll" />
           </set>
         </option>
@@ -27,7 +32,11 @@
             <option value="$PROJECT_DIR$/custom-thread-pool-demo" />
             <option value="$PROJECT_DIR$/executor-service-demo" />
             <option value="$PROJECT_DIR$/lv-infinite-loop-show-demo" />
+            <option value="$PROJECT_DIR$/myapplication" />
+            <option value="$PROJECT_DIR$/net-retrofit-demos" />
             <option value="$PROJECT_DIR$/service-relate-demo" />
+            <option value="$PROJECT_DIR$/tablayout-demo" />
+            <option value="$PROJECT_DIR$/touch-event-demo" />
             <option value="$PROJECT_DIR$/two-direction-scroll" />
           </set>
         </option>
