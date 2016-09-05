@@ -11,6 +11,7 @@
       <module fileurl="file://$PROJECT_DIR$/lv-infinite-loop-show-demo/lv-infinite-loop-show-demo.iml" filepath="$PROJECT_DIR$/lv-infinite-loop-show-demo/lv-infinite-loop-show-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/myapplication/myapplication.iml" filepath="$PROJECT_DIR$/myapplication/myapplication.iml" />
       <module fileurl="file://$PROJECT_DIR$/net-retrofit-demos/net-retrofit-demos.iml" filepath="$PROJECT_DIR$/net-retrofit-demos/net-retrofit-demos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rv-nesting-demo/rv-nesting-demo.iml" filepath="$PROJECT_DIR$/rv-nesting-demo/rv-nesting-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/service-relate-demo/service-relate-demo.iml" filepath="$PROJECT_DIR$/service-relate-demo/service-relate-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/tablayout-demo/tablayout-demo.iml" filepath="$PROJECT_DIR$/tablayout-demo/tablayout-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/touch-event-demo/touch-event-demo.iml" filepath="$PROJECT_DIR$/touch-event-demo/touch-event-demo.iml" />
