@@ -11,11 +11,12 @@
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/asyncload-executor-demo" />
+            <option value="$PROJECT_DIR$/bounce-listview-demo" />
             <option value="$PROJECT_DIR$/common-dimens-demo" />
             <option value="$PROJECT_DIR$/custom-thread-pool-demo" />
+            <option value="$PROJECT_DIR$/dynamic-add-custom-view-demo" />
             <option value="$PROJECT_DIR$/executor-service-demo" />
             <option value="$PROJECT_DIR$/lv-infinite-loop-show-demo" />
-            <option value="$PROJECT_DIR$/myapplication" />
             <option value="$PROJECT_DIR$/net-retrofit-demos" />
             <option value="$PROJECT_DIR$/rv-nesting-demo" />
             <option value="$PROJECT_DIR$/service-relate-demo" />
@@ -29,11 +30,12 @@
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/asyncload-executor-demo" />
+            <option value="$PROJECT_DIR$/bounce-listview-demo" />
             <option value="$PROJECT_DIR$/common-dimens-demo" />
             <option value="$PROJECT_DIR$/custom-thread-pool-demo" />
+            <option value="$PROJECT_DIR$/dynamic-add-custom-view-demo" />
             <option value="$PROJECT_DIR$/executor-service-demo" />
             <option value="$PROJECT_DIR$/lv-infinite-loop-show-demo" />
-            <option value="$PROJECT_DIR$/myapplication" />
             <option value="$PROJECT_DIR$/net-retrofit-demos" />
             <option value="$PROJECT_DIR$/rv-nesting-demo" />
             <option value="$PROJECT_DIR$/service-relate-demo" />

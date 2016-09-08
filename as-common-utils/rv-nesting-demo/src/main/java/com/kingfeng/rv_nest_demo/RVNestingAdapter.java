@@ -44,7 +44,7 @@ public class RVNestingAdapter extends RecyclerView.Adapter<BaseHolder> {
 
         Order order = orders.get(position);
         if(holder instanceof ItemViewHolder) {
-            ((ItemViewHolder) holder).refreshData(order, position);
+//            ((ItemViewHolder) holder).refreshData(order, position);
         } else if(holder instanceof SubRecyclerViewHolder) {
             ((SubRecyclerViewHolder) holder).refreshData(goods, position);
         }
@@ -59,9 +59,13 @@ public class RVNestingAdapter extends RecyclerView.Adapter<BaseHolder> {
     public int getItemViewType(int position) {
         // 订单中的商品数大于一件
         if (orders != null && orders.get(position).getGoodsList().size() > 1) {
+            goods = orders.get(position).getGoodsList();
             return NO_UNIQUE;
-        } else if (orders.get(position).getGoodsList().size() == 1)
+        } else if (orders.get(position).getGoodsList().size() == 1) {
+            goods = orders.get(position).getGoodsList();
             return UNIQUE;
+        }
+
         return super.getItemViewType(position);
     }
 
@@ -106,7 +110,9 @@ public class RVNestingAdapter extends RecyclerView.Adapter<BaseHolder> {
             super.refreshData(data, position);
             this.data = data;
 
-            tvOrderName.setText(data.get(position).getName());
+            if(data != null) {
+                tvOrderName.setText(data.get(position).getName());
+            }
 
             item_recyclerview.setBackgroundResource(R.color.colorPrimary);
             item_recyclerview.setAdapter(new GoodItemAdapter());
