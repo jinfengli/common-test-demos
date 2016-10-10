@@ -8,7 +8,9 @@
       <module fileurl="file://$PROJECT_DIR$/bounce-listview-demo/bounce-listview-demo.iml" filepath="$PROJECT_DIR$/bounce-listview-demo/bounce-listview-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/common-dimens-demo/common-dimens-demo.iml" filepath="$PROJECT_DIR$/common-dimens-demo/common-dimens-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/custom-thread-pool-demo/custom-thread-pool-demo.iml" filepath="$PROJECT_DIR$/custom-thread-pool-demo/custom-thread-pool-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dialog-style-demo/dialog-style-demo.iml" filepath="$PROJECT_DIR$/dialog-style-demo/dialog-style-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/dynamic-add-custom-view-demo/dynamic-add-custom-view-demo.iml" filepath="$PROJECT_DIR$/dynamic-add-custom-view-demo/dynamic-add-custom-view-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/enlarge-view-landscape/enlarge-view-landscape.iml" filepath="$PROJECT_DIR$/enlarge-view-landscape/enlarge-view-landscape.iml" />
       <module fileurl="file://$PROJECT_DIR$/executor-service-demo/executor-service-demo.iml" filepath="$PROJECT_DIR$/executor-service-demo/executor-service-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/lv-infinite-loop-show-demo/lv-infinite-loop-show-demo.iml" filepath="$PROJECT_DIR$/lv-infinite-loop-show-demo/lv-infinite-loop-show-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/net-retrofit-demos/net-retrofit-demos.iml" filepath="$PROJECT_DIR$/net-retrofit-demos/net-retrofit-demos.iml" />

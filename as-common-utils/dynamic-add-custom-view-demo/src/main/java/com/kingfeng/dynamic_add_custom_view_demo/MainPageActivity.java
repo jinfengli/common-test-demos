@@ -18,7 +18,7 @@ public class MainPageActivity extends FragmentActivity implements
     private static final String TAG = MainPageActivity.class.getSimpleName();
     private LinearLayout llFragmentTitle;
 
-    private static final int TOTAL_NUM = 5;
+    private static final int TOTAL_NUM = 1;
 
     private ViewPager fragmentMainVP;
 
