@@ -15,5 +15,18 @@
     <com.kingfeng.bounce_listview_demo.BounceListView
         android:id="@+id/lv_datas"
         android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+        android:layout_height="400dp" />
+
+    <LinearLayout
+        android:id="@+id/ll_others"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/iv_test"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_launcher"/>
+    </LinearLayout>
+
+
 </LinearLayout>

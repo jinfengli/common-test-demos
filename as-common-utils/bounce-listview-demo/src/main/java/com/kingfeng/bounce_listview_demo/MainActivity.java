@@ -6,6 +6,7 @@ import android.content.res.Configuration;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
+import android.util.Log;
 import android.view.KeyEvent;
 import android.view.View;
 import android.view.ViewGroup;
@@ -13,9 +14,13 @@ import android.view.Window;
 import android.view.WindowManager;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
-import android.widget.RelativeLayout;
+import android.widget.ImageView;
+import android.widget.LinearLayout;
 
 public class MainActivity extends Activity {
+
+    private static final String TAG = MainActivity.class.getSimpleName();
+
     // 继承AppcompactActivity 隐藏不了标题栏
     private Button btnEnlarge;
     private BounceListView bounceListView;
@@ -23,15 +28,24 @@ public class MainActivity extends Activity {
     private static final int MSG_SCREEN_FULL = 0x00000004;
     private static final int MSG_SCREEN_WRAP = 0x00000005;
 
+    private ImageView ivTest;
+
+    private LinearLayout llOthers;
+
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         requestWindowFeature(Window.FEATURE_NO_TITLE);
         setContentView(R.layout.activity_main);
+        Log.d(TAG, "onCreate()");
+
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
 
         btnEnlarge = (Button) findViewById(R.id.btn_enlarge);
         bounceListView = (BounceListView) findViewById(R.id.lv_datas);
+        ivTest = (ImageView) findViewById(R.id.iv_test);
+
+        llOthers = (LinearLayout) findViewById(R.id.ll_others);
 
 //        LinearLayout linearLayout = new LinearLayout(this);
 //        linearLayout.setLayoutParams(new LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT,
@@ -57,6 +71,7 @@ public class MainActivity extends Activity {
             @Override
             public void onClick(View v) {
                 if (getScreenOrientation() == Configuration.ORIENTATION_PORTRAIT) {
+                    Log.d(TAG, "getScreenOrientation() == " + getScreenOrientation());
                     setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_LANDSCAPE);
                     return;
                 }
@@ -65,21 +80,16 @@ public class MainActivity extends Activity {
         });
     }
 
-    public void screenFullModeUI() {
-//        mRela_Layout.setVisibility(View.GONE);
-//        mImage_Full_Screen.setImageResource(R.drawable.jc_shrink);
-        btnEnlarge.setVisibility(View.GONE);
-        setScreenLayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.MATCH_PARENT);
-    }
+
 
     private void setScreenLayoutParams(int width, int height) {
-        RelativeLayout.LayoutParams layoutParams = new RelativeLayout.LayoutParams(width, height);
-        if (width == ViewGroup.LayoutParams.MATCH_PARENT && height == ViewGroup.LayoutParams.MATCH_PARENT) {
-            layoutParams.addRule(RelativeLayout.ALIGN_PARENT_BOTTOM);
-            layoutParams.addRule(RelativeLayout.ALIGN_PARENT_TOP);
-            layoutParams.addRule(RelativeLayout.ALIGN_PARENT_LEFT);
-            layoutParams.addRule(RelativeLayout.ALIGN_PARENT_RIGHT);
-        }
+        LinearLayout.LayoutParams layoutParams = new LinearLayout.LayoutParams(width, height);
+//        if (width == ViewGroup.LayoutParams.MATCH_PARENT && height == ViewGroup.LayoutParams.MATCH_PARENT) {
+//            layoutParams.addRule(LinearLayout.ALIGN_PARENT_BOTTOM);
+//            layoutParams.addRule(LinearLayout.ALIGN_PARENT_TOP);
+//            layoutParams.addRule(LinearLayout.ALIGN_PARENT_LEFT);
+//            layoutParams.addRule(LinearLayout.ALIGN_PARENT_RIGHT);
+//        }
         bounceListView.setLayoutParams(layoutParams);
         bounceListView.requestFocus();
     }
@@ -107,6 +117,8 @@ public class MainActivity extends Activity {
     public void onConfigurationChanged(Configuration newConfig) {
         super.onConfigurationChanged(newConfig);
         int value = getScreenOrientation();
+        Log.d(TAG, value + "");
+
         if (value == Configuration.ORIENTATION_LANDSCAPE) {
             mHandler.sendEmptyMessage(MSG_SCREEN_FULL);
         } else if (value == Configuration.ORIENTATION_PORTRAIT) {
@@ -118,6 +130,7 @@ public class MainActivity extends Activity {
     public boolean onKeyDown(int keyCode, KeyEvent event) {
         if (keyCode == KeyEvent.KEYCODE_BACK) {
             if (getScreenOrientation() == Configuration.ORIENTATION_LANDSCAPE) {
+                mHandler.sendEmptyMessage(MSG_SCREEN_WRAP);
                 setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
                 return false;
             }
@@ -130,9 +143,16 @@ public class MainActivity extends Activity {
     }
 
     public void screenWrapModeUI() {
-//        mRela_Layout.setVisibility(View.VISIBLE);
+        llOthers.setVisibility(View.VISIBLE);
 //        mImage_Full_Screen.setImageResource(R.drawable.jc_enlarge);
+        btnEnlarge.setBackground(getResources().getDrawable(R.drawable.ic_enlarge));
         setScreenLayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, /* ScreenUtil.dip2px(this, 220)*/300);
+    }
+
+    public void screenFullModeUI() {
+        llOthers.setVisibility(View.GONE);
+        btnEnlarge.setBackgroundColor(getResources().getColor(R.color.colorAccent));
+        setScreenLayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.MATCH_PARENT);
     }
 
 }
