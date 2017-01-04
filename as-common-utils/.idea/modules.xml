@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/android-mask-demo/android-mask-demo.iml" filepath="$PROJECT_DIR$/android-mask-demo/android-mask-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/as-common-utils.iml" filepath="$PROJECT_DIR$/as-common-utils.iml" />
       <module fileurl="file://$PROJECT_DIR$/asyncload-executor-demo/asyncload-executor-demo.iml" filepath="$PROJECT_DIR$/asyncload-executor-demo/asyncload-executor-demo.iml" />
@@ -12,11 +13,14 @@
       <module fileurl="file://$PROJECT_DIR$/dynamic-add-custom-view-demo/dynamic-add-custom-view-demo.iml" filepath="$PROJECT_DIR$/dynamic-add-custom-view-demo/dynamic-add-custom-view-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/enlarge-view-landscape/enlarge-view-landscape.iml" filepath="$PROJECT_DIR$/enlarge-view-landscape/enlarge-view-landscape.iml" />
       <module fileurl="file://$PROJECT_DIR$/executor-service-demo/executor-service-demo.iml" filepath="$PROJECT_DIR$/executor-service-demo/executor-service-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/flowlayout-demo/flowlayout-demo.iml" filepath="$PROJECT_DIR$/flowlayout-demo/flowlayout-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/lv-infinite-loop-show-demo/lv-infinite-loop-show-demo.iml" filepath="$PROJECT_DIR$/lv-infinite-loop-show-demo/lv-infinite-loop-show-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/net-retrofit-demos/net-retrofit-demos.iml" filepath="$PROJECT_DIR$/net-retrofit-demos/net-retrofit-demos.iml" />
       <module fileurl="file://$PROJECT_DIR$/rv-nesting-demo/rv-nesting-demo.iml" filepath="$PROJECT_DIR$/rv-nesting-demo/rv-nesting-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/service-relate-demo/service-relate-demo.iml" filepath="$PROJECT_DIR$/service-relate-demo/service-relate-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/sharesdk-demo/sharesdk-demo.iml" filepath="$PROJECT_DIR$/sharesdk-demo/sharesdk-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/statelist-drawable-demo/statelist-drawable-demo.iml" filepath="$PROJECT_DIR$/statelist-drawable-demo/statelist-drawable-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/svg-vector-drawable-demo/svg-vector-drawable-demo.iml" filepath="$PROJECT_DIR$/svg-vector-drawable-demo/svg-vector-drawable-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/tablayout-demo/tablayout-demo.iml" filepath="$PROJECT_DIR$/tablayout-demo/tablayout-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/touch-event-demo/touch-event-demo.iml" filepath="$PROJECT_DIR$/touch-event-demo/touch-event-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/two-direction-scroll/two-direction-scroll.iml" filepath="$PROJECT_DIR$/two-direction-scroll/two-direction-scroll.iml" />
