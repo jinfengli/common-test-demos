@@ -14,6 +14,8 @@
       <module fileurl="file://$PROJECT_DIR$/enlarge-view-landscape/enlarge-view-landscape.iml" filepath="$PROJECT_DIR$/enlarge-view-landscape/enlarge-view-landscape.iml" />
       <module fileurl="file://$PROJECT_DIR$/executor-service-demo/executor-service-demo.iml" filepath="$PROJECT_DIR$/executor-service-demo/executor-service-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/flowlayout-demo/flowlayout-demo.iml" filepath="$PROJECT_DIR$/flowlayout-demo/flowlayout-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gradient-demo/gradient-demo.iml" filepath="$PROJECT_DIR$/gradient-demo/gradient-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/handler-leak-demo/handler-leak-demo.iml" filepath="$PROJECT_DIR$/handler-leak-demo/handler-leak-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/lv-infinite-loop-show-demo/lv-infinite-loop-show-demo.iml" filepath="$PROJECT_DIR$/lv-infinite-loop-show-demo/lv-infinite-loop-show-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/net-retrofit-demos/net-retrofit-demos.iml" filepath="$PROJECT_DIR$/net-retrofit-demos/net-retrofit-demos.iml" />
       <module fileurl="file://$PROJECT_DIR$/rv-nesting-demo/rv-nesting-demo.iml" filepath="$PROJECT_DIR$/rv-nesting-demo/rv-nesting-demo.iml" />

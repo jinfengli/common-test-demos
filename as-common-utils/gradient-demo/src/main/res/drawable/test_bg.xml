@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <!-- 实心 -->
+    <!--<solid android:color="#ff9d77" />-->
+    <!-- 渐变 -->
+    <gradient
+        android:endColor="#6F85DE"
+        android:startColor="#9373E6"
+        android:type="linear"
+        android:centerX="0.5"
+        android:centerY="0.5"
+        android:angle="0"
+    />
+    <!-- 描边 -->
+   <!-- <stroke
+        android:width="2dp"
+        android:color="#dcdcdc"
+        android:dashGap="2dp"
+        android:dashWidth="5dp"
+    />-->
+  <!--  &lt;!&ndash; 圆角 &ndash;&gt;
+    <corners android:radius="2dp" />
+
+    <padding
+        android:bottom="50dp"
+        android:left="50dp"
+        android:right="50dp"
+        android:top="50dp" />-->
+
+</shape>
