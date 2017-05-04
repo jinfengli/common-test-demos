@@ -30,6 +30,8 @@
             <option value="$PROJECT_DIR$/statelist-drawable-demo" />
             <option value="$PROJECT_DIR$/svg-vector-drawable-demo" />
             <option value="$PROJECT_DIR$/tablayout-demo" />
+            <option value="$PROJECT_DIR$/test-mvp-demo" />
+            <option value="$PROJECT_DIR$/the-mvp-demo" />
             <option value="$PROJECT_DIR$/touch-event-demo" />
             <option value="$PROJECT_DIR$/two-direction-scroll" />
           </set>
@@ -58,6 +60,8 @@
             <option value="$PROJECT_DIR$/statelist-drawable-demo" />
             <option value="$PROJECT_DIR$/svg-vector-drawable-demo" />
             <option value="$PROJECT_DIR$/tablayout-demo" />
+            <option value="$PROJECT_DIR$/test-mvp-demo" />
+            <option value="$PROJECT_DIR$/the-mvp-demo" />
             <option value="$PROJECT_DIR$/touch-event-demo" />
             <option value="$PROJECT_DIR$/two-direction-scroll" />
           </set>
