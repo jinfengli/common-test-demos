@@ -1,60 +1,32 @@
 package com.kingfeng.the_mvp_demo;
 
-import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
 import android.view.View;
-import android.widget.Button;
-import android.widget.EditText;
 
-public class MainActivity extends AppCompatActivity implements View.OnClickListener, IUserView {
+import com.kingfeng.the_mvp_demo.base.ActivityPresenter;
 
-    private EditText mFirstNameEditText , mLastNameEditText , mIdEditText ;
-    private Button mSaveButton , mLoadButton ;
-    private UserPresenter mUserPresenter ;
+public class MainActivity extends ActivityPresenter<SimpleDelegate> implements View.OnClickListener {
+
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+    protected Class<SimpleDelegate> getDelegateClass() {
+        return SimpleDelegate.class;
     }
 
     @Override
-    public int getID() {
-        return 0;
-    }
-
-    @Override
-    public String getFristName() {
-        return null;
-    }
-
-    @Override
-    public String getLastName() {
-        return null;
-    }
-
-    @Override
-    public void setFirstName(String firstName) {
-
-    }
-
-    @Override
-    public void setLastName(String lastName) {
-
+    protected void bindEventListener() {
+        super.bindEventListener();
+        viewDelegate.setOnClickListener(this, R.id.btn_save);
     }
 
     @Override
     public void onClick(View view) {
         switch (view.getId()) {
             case R.id.saveButton:
-                mUserPresenter.saveUser(getID(), getFristName(),
-                        getLastName());
-                break;
-            case R.id.loadButton:
-                mUserPresenter.loadUser(getID());
-                break;
-            default:
+                viewDelegate.setText("click save button.");
+                viewDelegate.toast("点击了save button.");
                 break;
         }
     }
+
+
 }
