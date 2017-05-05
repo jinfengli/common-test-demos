@@ -1,7 +1,6 @@
 package com.kingfeng.the_mvp_demo.base;
 
 import android.os.Bundle;
-import android.os.PersistableBundle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
@@ -29,9 +28,14 @@ public abstract class ActivityPresenter<T extends IDelegate> extends AppCompatAc
         }
     }
 
+//    @Override
+//    protected void onCreate(@Nullable Bundle savedInstanceState) {
+//        super.onCreate(savedInstanceState);
+//    }
+
     @Override
-    public void onCreate(Bundle savedInstanceState, PersistableBundle persistentState) {
-        super.onCreate(savedInstanceState, persistentState);
+    public void onCreate(Bundle savedInstanceState/*, PersistableBundle persistentState*/) {
+        super.onCreate(savedInstanceState/*, persistentState*/);
 
         viewDelegate.create(getLayoutInflater(), null, savedInstanceState);
         setContentView(viewDelegate.getRootView());
@@ -64,6 +68,20 @@ public abstract class ActivityPresenter<T extends IDelegate> extends AppCompatAc
     protected void onDestroy() {
         viewDelegate = null;
         super.onDestroy();
+    }
+
+    @Override
+    protected void onRestoreInstanceState(Bundle savedInstanceState) {
+        super.onRestoreInstanceState(savedInstanceState);
+        if (viewDelegate == null) {
+            try {
+                viewDelegate = getDelegateClass().newInstance();
+            } catch (InstantiationException e) {
+                throw new RuntimeException("create IDelegate error");
+            } catch (IllegalAccessException e) {
+                throw new RuntimeException("create IDelegate error");
+            }
+        }
     }
 
     // 委托类

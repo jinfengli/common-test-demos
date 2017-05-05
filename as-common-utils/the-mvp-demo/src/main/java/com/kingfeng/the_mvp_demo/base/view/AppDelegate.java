@@ -1,5 +1,6 @@
 package com.kingfeng.the_mvp_demo.base.view;
 
+import android.app.Activity;
 import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
 import android.util.SparseArray;
@@ -20,6 +21,7 @@ public abstract class AppDelegate implements IDelegate {
     protected View rootView;
 
     protected final SparseArray<View> mViews = new SparseArray<>();
+
     public abstract int getRootLayoutId();
 
     @Override
@@ -76,5 +78,9 @@ public abstract class AppDelegate implements IDelegate {
 
     public void toast(CharSequence msg) {
         Toast.makeText(rootView.getContext(), msg, Toast.LENGTH_SHORT).show();
+    }
+
+    public <T extends Activity> T getActivity() {
+        return (T) rootView.getContext();
     }
 }

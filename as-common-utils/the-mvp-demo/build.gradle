@@ -6,7 +6,7 @@ android {
 
     defaultConfig {
         applicationId "com.kingfeng.the_mvp_demo"
-        minSdkVersion 22
+        minSdkVersion 18
         targetSdkVersion 25
         versionCode 1
         versionName "1.0"
